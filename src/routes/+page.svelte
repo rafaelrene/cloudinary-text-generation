@@ -5,7 +5,7 @@
 	const handleGenerate = () => {
 		const encodedValue = encodeURIComponent(value);
 
-		src = `https://res.cloudinary.com/dto7aabea/image/upload/c_crop,h_619,w_440/co_rgb:989898,l_text:arial_64_normal_left:${encodedValue}/c_lpad,h_619,w_420/fl_layer_apply,g_center/v1675533105/gs/none-of-these_tsiyi8.png`;
+		src = `https://res.cloudinary.com/dto7aabea/image/upload/co_rgb:FFFFFF,e_colorize/c_crop,h_619,w_440/co_rgb:989898,l_text:arial_64_normal_left:${encodedValue}/c_lpad,h_619,w_420/fl_layer_apply,g_center/v1675533105/gs/none-of-these_tsiyi8.png`;
 	};
 </script>
 
